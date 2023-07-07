@@ -20,6 +20,8 @@ export const HomeView = () => {
 
     if (fetchLoading === true) return <SpinnerLoader />
 
+    const sads  = visiblePublications.clima
+
     return (
         <section className='flex flex-col h-full gap-10 '>
             <CreateNewPublication />

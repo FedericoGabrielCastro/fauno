@@ -7,7 +7,7 @@ interface IFMain {
 
 export const FMain = ({ children }: IFMain) => {
     return (
-        <main className='h-[85vh]'>
+        <main className='min-h-[85vh]'>
             <FContainer>{children}</FContainer>
         </main>
     )

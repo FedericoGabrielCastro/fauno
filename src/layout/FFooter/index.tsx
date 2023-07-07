@@ -10,7 +10,7 @@ export const FFooter = () => {
     if (fetchLoading === true) return <SpinnerLoader />
 
     return (
-        <footer className='h-[10vh] flex  items-center justify-center'>
+        <footer className='h-[10vh] flex items-center justify-center mt-auto'>
             <ReactPaginate
                 className='flex gap-2'
                 pageCount={Math.ceil(publications.length / itemsPerPage)} // Calcular el número total de páginas
